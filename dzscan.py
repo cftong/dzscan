@@ -13,7 +13,8 @@ from utils import fetch_vul
 import datetime
 import re, sys, time
 import gevent, requests
-
+import codecs
+open("filename",'w',encoding="utf8")
 
 class DzscanBase():
 
